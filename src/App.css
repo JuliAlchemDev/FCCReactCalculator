@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  --white: white;
+  --light-gray: #f0f0f0;
+  --dark-gray: #6c6c6c;
+  --black: #1e1e1e;
+  --yellow: #f99c14;
+}
+
+main#main__calculator {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 500px;
+  background: var(--black);
+  
+}
+section.section__screen {
+  text-align: right;
+  padding: 0 20px;
+  height: 100px;
+}
+.section__p__expression {
+  font-size: 30px;
+  margin:0;
+  color: var(--dark-gray);
+}
+.section__p__input {
+  font-size: 48px;
+  margin:0;
+ 
+}
+
+.section__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(5, 1fr); 
+  grid-template-areas: 
+    'clear clear divide multiply'
+    'seven eight nine subtract'
+    'four five six add'
+    'one two three equals'
+    'zero zero decimal equals'; 
+  color: var(--white);
+  gap: 20px;
+  padding: 5%;
+}
+
+/* General style for the buttons */
+button {
+  height: 100px;
+  font-size: 24px;
+  border: none;
+  border-radius: 100px;
+  transition: transform 0.1s ease-in-out;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+button#clear { grid-area: clear; background: var(--light-gray); color: var(--black)}
+button#divide { grid-area: divide; }
+button#multiply { grid-area: multiply; }
+button#subtract { grid-area: subtract; }
+button#add { grid-area: add; }
+button#equals { 
+  grid-area: equals;
+  height: 100%;
+ 
+}
+button#seven { grid-area: seven; }
+button#eight { grid-area: eight; }
+button#nine { grid-area: nine; }
+button#four { grid-area: four; }
+button#five { grid-area: five; }
+button#six { grid-area: six; }
+button#one { grid-area: one; }
+button#two { grid-area: two; }
+button#three { grid-area: three; }
+button#zero { grid-area: zero; }
+button#decimal { grid-area: decimal; }
+
+/* Button colors */
+button#one, 
+button#zero,
+button#two,
+button#three,
+button#four,
+button#five,
+button#six,
+button#seven,
+button#eight,
+button#nine, button#decimal {
+  background: var(--dark-gray);
+}
+
+button#subtract,
+button#multiply,
+button#add,
+button#divide,
+button#equals {
+  background: var(--yellow);
+}
