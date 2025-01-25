@@ -1,8 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React Calculator
+🚀 [DEMO]()
 
-Currently, two official plugins are available:
+Una calculadora simple e interactiva construida con React. Esta aplicación permite realizar operaciones aritméticas básicas, como suma, resta, multiplicación y división. También admite la entrada de decimales y redondeo adecuado para los resultados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 📱💻 Vista en dispositivos 
+
+ 
+![Vista](./Vista.png)
+
+
+
+
+## 🙌 Inspiración
+
+Este proyecto está basado en el desafío [Build a JavaScript Calculator](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator) del curso Front End Development Libraries de FreeCodeCamp. 
+
+## ✨ Características
+
+- Operaciones aritméticas básicas: suma, resta, multiplicación, división.
+- Entrada de punto decimal para cálculos de números flotantes.
+- Redondeo del resultado a 4 decimales.
+- Botón de "Limpiar" para resetear la calculadora.
+
+## 🛠️ Tecnologías
+
+- **React**
+- **CSS3** 
+
