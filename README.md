@@ -7,11 +7,7 @@ Una calculadora simple e interactiva construida con React. Esta aplicación perm
 
 ## 📱💻 Vista en dispositivos 
 
- 
 ![Vista](./Vista.png)
-
-
-
 
 ## 🙌 Inspiración
 
